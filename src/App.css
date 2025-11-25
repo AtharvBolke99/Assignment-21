@@ -3,6 +3,10 @@
   font-size: 40px;
 }
 
+.login-form {
+  color: rgb(50, 179, 230) ;
+}
+
 .input-name {
   padding: 10px 20px;
   font-size: 20px;
@@ -15,12 +19,11 @@
   outline: none;
 }
 .input-name:hover {
-  border: 2px solid blue;
+  border: 2px solid rgb(50, 179, 230);
   transition: 0.3s;
 }
 
 .form {
-  background-color: tomato;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,6 +31,11 @@
   margin-top: 50px;
   gap: 10px;
   padding: 20px;
+  background-color: rgb(243, 242, 242);
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  height: 300px;
 }
 
 .btn {
@@ -39,9 +47,21 @@
   color: white;
   border-radius: 30px;
   cursor: pointer;
+  margin: 20px 0px;
 }
 .btn:hover {
   background-color: rgb(50, 179, 230);
   transition: 0.3s;
 
+}
+
+.gender-input-box {
+  display: flex;
+  padding: 10px;
+
+}
+
+.savedinfo {
+  text-align: center;
+  color: grey;
 }
